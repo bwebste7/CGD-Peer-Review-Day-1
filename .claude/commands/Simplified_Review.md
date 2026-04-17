@@ -12,7 +12,7 @@ Review academic research papers using established frameworks and guidelines.
 ## Usage
 
 ```
-/paper-review <path-to-paper>
+/simple-review <path-to-paper>
 ```
 
 ## Frameworks
