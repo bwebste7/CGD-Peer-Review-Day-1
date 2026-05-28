@@ -2,5 +2,5 @@ country,mean_control,mean_treatment,ATE,SE,t_stat,p_value,n_control,n_treatment,
 Mexico (PAL),0.6099,0.6055,-0.0044,0.0093,-0.4764,0.6338,1321,1473,kg observed
 Mexico (Progresa),0.55,0.5821,0.0322,0.0022,14.3108,0.0,17132,27480,kg observed
 Nicaragua,0.1998,0.3285,0.1287,0.0086,14.8868,0.0,1362,1488,kg observed
-Philippines,0.4283,0.4374,0.0092,0.02,0.4576,0.6474,328,336,exp/price imputation
+Philippines,0.4911,0.5054,0.0143,0.0211,0.68,0.4967,328,336,province prices 2008-2011
 Uganda,0.1511,0.1741,0.023,0.011,2.1016,0.0357,869,907,kg observed
