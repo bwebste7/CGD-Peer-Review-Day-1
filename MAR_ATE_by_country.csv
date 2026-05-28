@@ -2,5 +2,5 @@ country,control_MAR,treatment_MAR,ATE,SE,t_stat,p_value,n_control,n_treatment,me
 Mexico (PAL),0.6099,0.6055,-0.0044,0.0093,-0.4764,0.6338,1321,1473,kg observed
 Mexico (Progresa),0.55,0.5821,0.0322,0.0022,14.3108,0.0,17132,27480,kg observed
 Nicaragua,0.1998,0.3285,0.1287,0.0086,14.8868,0.0,1362,1488,kg observed
-Philippines,0.7451,0.7269,-0.0183,0.0078,-2.3414,0.0193,1894,1841,FIES 2009 budget shares + moduleA expenditure
+Philippines,0.6787,0.6638,-0.0149,0.0126,-1.184,0.2366,714,703,FIES 2009 budget shares + moduleA sample 1 expenditure
 Uganda,0.1511,0.1741,0.023,0.011,2.1016,0.0357,869,907,kg observed

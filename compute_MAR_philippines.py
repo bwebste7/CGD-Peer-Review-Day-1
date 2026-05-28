@@ -113,11 +113,14 @@ mod, _ = pyreadstat.read_dta(MODULE_A_PATH, encoding='latin1')
 # Extract 2-digit province number from 4-digit PSGC code (last 2 chars)
 mod['prov_num'] = mod['prov'].str[-2:].astype(int)
 
+# Restrict to sample 1 (the main RCT sample)
+mod = mod[mod['sample'] == 1].copy()
+
 # Keep rows with usable food expenditure and household size
 mod = mod.dropna(subset=['AfoodHH', 'hhcount', 'treated']).copy()
 mod = mod[mod['AfoodHH'] > 0].copy()
 
-print(f"\nmoduleA households after cleaning: {len(mod)}")
+print(f"\nmoduleA households after cleaning (sample 1): {len(mod)}")
 print(f"Provinces covered: {sorted(mod['prov_num'].unique())}")
 
 
